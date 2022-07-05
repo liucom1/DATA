@@ -1,0 +1,477 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+.bg {
+    width: 100vw;
+    height: 56.25vw;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    padding-top: 1.09vw;
+    position: relative;
+}
+.name {
+    width: 10vw;
+    height: 0.94vw;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 0.92vw;
+    line-height: 0.94vw;
+    letter-spacing: 0.04vw;
+    color: #f5f5f5;
+    opacity: 0.8;
+}
+
+.name1 {
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 0.92vw;
+    line-height: 0.94vw;
+    text-align: center;
+    letter-spacing: 0.04vw;
+    color: #19d1b8;
+}
+
+.name2 {
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 1.25vw;
+    line-height: 0.99vw;
+    text-align: center;
+    letter-spacing: 0.05vw;
+    color: #ffffff;
+}
+
+.name3 {
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 0.74vw;
+    line-height: 1.63vw;
+    letter-spacing: 0.03vw;
+    color: #17fbd8;
+    opacity: 0.9;
+}
+
+.number {
+    width: 6.82vw;
+    height: 2.08vw;
+    font-family: Quartz-Regular;
+    font-size: 2.34vw;
+    line-height: 2.08;
+    letter-spacing: 0vw;
+    color: #fcff00;
+}
+
+.unit {
+    width: 1.2vw;
+    height: 1.35vw;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 1.8vw;
+    line-height: 1.35vw;
+    color: #fcff00;
+}
+
+.pre {
+    width: 5.21vw;
+    height: 0.94vw;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 14px;
+    line-height: 0.94vw;
+    letter-spacing: 0.04vw;
+    color: #f5f5f5;
+    opacity: 0.8;
+}
+
+.box {
+    width: 6vw;
+    height: 4vw;
+}
+
+.box .experience {
+    height: 0.94vw;
+}
+
+.box .line {
+    width: 2.19vw;
+    height: 0.21vw;
+    background-color: #ffff00;
+    border-radius: 0.08vw;
+    position: absolute;
+    top: 0.84vw;
+    left: 1.9vw;
+}
+
+.wage2 {
+    width: 6vw;
+    height: 0.99vw;
+    position: absolute;
+    top: 2.08vw;
+}
+
+.top {
+    width: 97.91vw;
+    height: 5.52vw;
+    margin-left: 1.03vw;
+}
+
+.top-left {
+    width: 31.61vw;
+    height: 2.71vw;
+    background-image: url(../img/lefthead.png);
+    background-size: cover;
+    float: left;
+}
+
+.top-coter {
+    width: 31.51vw;
+    height: 2.19vw;
+    margin-top: 1.3vw;
+    margin-left: 1.61vw;
+    float: left;
+}
+
+.top-right {
+    width: 31.61vw;
+    height: 2.71vw;
+    background-image: url(../img/righthead.png);
+    background-size: cover;
+    margin-left: 1.56vw;
+    float: left;
+}
+
+.title {
+    width: 31.51vw;
+    height: 2.19vw;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 2.18vw;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.56vw;
+    letter-spacing: 0.24vw;
+    color: #00b4ff;
+}
+
+.subtitle {
+    width: 31.51vw;
+    height: 0.83vw;
+    text-align: center;
+    font-family: AdobeHeitiStd-Regular;
+    font-size: 0.73vw;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.56vw;
+    letter-spacing: 0.09vw;
+    color: #00b4ff;
+    margin-top: 00.73vw;
+}
+
+.mian {
+    width: 92.82vw;
+    height: 47.14vw;
+    margin-top: 0.97vw;
+    margin-left: 3.49vw;
+    position: relative;
+}
+
+.left-top {
+    width: 26.15vw;
+    height: 8.02vw;
+    background-image: url(../img/left-top.png);
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.left-top .name {
+    position: absolute;
+    left: 1.77vw;
+    top: 1.3vw;
+}
+
+.left-top .wage {
+    width: 8.8vw;
+    height: 2.08vw;
+    position: absolute;
+    top: 4.27vw;
+    left: 4.17vw;
+}
+
+.left-top .unit {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.left-top .number {
+    position: absolute;
+    right: 0px;
+    bottom: 1.4vw;
+}
+
+.left-top .pre {
+    position: absolute;
+    top: 5.47vw;
+    left: 13.7vw;
+}
+
+.left-middle {
+    width: 26.15vw;
+    height: 18.75vw;
+    background-image: url(../img/left-middle.png);
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 9.17vw;
+}
+
+.left-middle .name {
+    position: absolute;
+    top: 1.93vw;
+    left: 1.67vw;
+}
+
+.charte1 {
+    width: 22.76vw;
+    height: 13.96vw;
+    position: absolute;
+    top: 3.39vw;
+    left: 1.72vw;
+}
+
+.left-bottom {
+    width: 26.15vw;
+    height: 17.34vw;
+    background-image: url(../img/left-bottom.png);
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 29.79vw;
+}
+
+.left-bottom .name {
+    position: absolute;
+    left: 1.67vw;
+    top: 1.53vw;
+}
+
+.charte2 {
+    width: 19.64vw;
+    height: 13.91vw;
+    position: absolute;
+    left: 2.71vw;
+    top: 2.6vw;
+}
+
+.center-top {
+    width: 36.09vw;
+    height: 29.79vw;
+    position: absolute;
+    left: 28.18vw;
+    top: 1.3vw;
+}
+
+.center-top .name {
+    position: absolute;
+    top: 0;
+    left: 1.82vw;
+}
+
+.charte3 {
+    width: 36.09vw;
+    height: 28.18vw;
+    position: absolute;
+    left: 0;
+    top: 1.61vw;
+}
+
+.center-bottom {
+    width: 35.57vw;
+    height: 14.17vw;
+    background-image: url(../img/center-bottom.png);
+    background-size: cover;
+    position: absolute;
+    left: 28.18vw;
+    top: 32.97vw;
+}
+
+.center-bottom .name {
+    position: absolute;
+    top: 1.88vw;
+    left: 2.5vw;
+}
+
+.charte4 {
+    width: 28.13vw;
+    height: 9.06vw;
+    position: absolute;
+    left: 2.86vw;
+    top: 2.92vw;
+}
+
+.right-top {
+    width: 26.15vw;
+    height: 8.02vw;
+    background-image: url(../img/right-top.png);
+    background-size: cover;
+    position: absolute;
+    left: 66.67vw;
+    top: 0vw;
+}
+
+.right-top .name {
+    position: absolute;
+    top: 1.3vw;
+    left: 1.5vw;
+}
+
+.right-top .wage {
+    width: 8.88vw;
+    height: 2.08vw;
+    position: absolute;
+    top: 4.11vw;
+    left: 5.31vw;
+}
+
+.right-top .unit {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.right-top .number {
+    position: absolute;
+    right: 6px;
+    bottom: 1.26vw;
+}
+
+.right-top .pre {
+    position: absolute;
+    left: 15.78vw;
+    top: 5.42vw;
+}
+
+.right-middle {
+    width: 26.15vw;
+    height: 15.57vw;
+    background-image: url(../img/right-middle.png);
+    background-size: cover;
+    position: absolute;
+    left: 66.67vw;
+    top: 9.17vw;
+}
+
+.right-middle .name {
+    position: absolute;
+    top: 1.3vw;
+    left: 1.46vw;
+}
+
+.right-middle .one {
+    position: absolute;
+    top: 4vw;
+    left: 6vw;
+}
+
+.right-middle .two {
+    position: absolute;
+    top: 4vw;
+    left: 14vw;
+}
+
+.right-middle .three {
+    position: absolute;
+    top: 10vw;
+    left: 6vw;
+}
+
+.right-middle .fore {
+    position: absolute;
+    top: 10vw;
+    left: 14vw;
+}
+
+.right-bottom {
+    width: 26.15vw;
+    height: 21.09vw;
+    background-image: url(../img/right-bottom.png);
+    background-size: cover;
+    position: absolute;
+    left: 66.67vw;
+    top: 26.12vw;
+}
+
+.right-bottom .name {
+    position: absolute;
+    top: 1.25vw;
+    left: 1.51vw;
+}
+
+.order{
+    position: relative;
+    width: 0.73vw;
+    height: 0.52vw;
+    font-family: SanFranciscoDisplay-Bold;
+    font-size: 12px;
+    line-height: 0.52vw;
+    letter-spacing: 0.03vw;
+    color: #16eccc;
+    text-align: center;
+    margin-top: 0.16vw;
+    float: left;
+    z-index: 1;
+}
+.order::after{
+    content: "";
+    position: absolute;
+    width: 0.68vw;
+    height: 0.16vw;
+    background-color: #ffff00;
+    border-radius: 0.08vw;
+    left: 0;
+    bottom: -0.08vw;
+}
+.order span {
+    position: relative;
+    z-index: 1;
+}
+.city {
+    width: 5vw;
+    height: 0.73vw;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 12px;
+    line-height: 0.73vw;
+    letter-spacing: 0.03vw;
+    color: #17fbd8;
+    opacity: 0.9;
+    float: left;
+    margin-left: 0.31vw;
+}
+.wage3{
+    width: 2.76vw;
+    height: 0.63vw;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 12px;
+    line-height: 0.63vw;
+    letter-spacing: 0.03vw;
+    color: #17fbd8;
+    opacity: 0.9;
+    float: right;
+}
+ .list {
+   width: 18.02vw;
+   height: 17.4vw;
+   margin-top: 3.13vw;
+   margin-left: 4.01vw;
+   overflow: hidden;
+   padding-top: 1vw;
+}
+.item{
+    width: 18.02vw;
+    height: 0.87vw;
+    margin-bottom: 1.04vw;
+}
+
+
+
+
